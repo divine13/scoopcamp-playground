@@ -7,6 +7,9 @@ Diego tried to add something
 Now, Diego tried something new
                                                                  
 
+
+## Postgres setup cheat sheet
+
 	initdb /usr/local/var/postgres -E utf8
 	pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
 	createuser scoopcamp-playground 
